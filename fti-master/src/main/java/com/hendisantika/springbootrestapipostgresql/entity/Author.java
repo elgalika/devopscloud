@@ -56,7 +56,7 @@ public class Author {
         this.name = name;
     }
 
-    public String Isbn() {
+    public String getIsbn() {
         return isbn;
     }
 

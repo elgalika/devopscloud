@@ -41,7 +41,7 @@ public class AuthorRestController {
     }
 
     @GetMapping
-    public ResponseEntity<Collection<Au>> getAllAuthor() {
+    public ResponseEntity<Collection<Author>> getAllAuthor() {
         return new ResponseEntity<>(repository.findAll(), HttpStatus.OK);
     }
 
@@ -61,8 +61,8 @@ public class AuthorRestController {
         Optional<Author> currentAuthorOpt = repository.findById(id);
         Author currentAuthor = currentAuthorOpt.get();
         currentAuthor.setName(author.getName());
-        currentAuthor.setDescription(author.getDescription());
-        currentAuthor.setTags(author.getTags());
+        currentAuthor.setIsbn(author.getIsbn());
+        currentAuthor.setMbiemer(author.getMbiemer());
 
         return new ResponseEntity<>(repository.save(currentAuthor), HttpStatus.OK);
     }
