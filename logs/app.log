@@ -1,0 +1,60 @@
+2024-04-19 19:48:25 [main] INFO  c.h.s.SpringBootRestApiPostgresqlApplication - Starting SpringBootRestApiPostgresqlApplication using Java 17.0.10 with PID 24896 (C:\Users\User\Desktop\testing\devopscloud\target\classes started by User in C:\Users\User\Desktop\testing\devopscloud)
+2024-04-19 19:48:25 [main] INFO  c.h.s.SpringBootRestApiPostgresqlApplication - No active profile set, falling back to 1 default profile: "default"
+2024-04-19 19:48:28 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-19 19:48:28 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 453 ms. Found 2 JPA repository interfaces.
+2024-04-19 19:48:32 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-04-19 19:48:32 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-04-19 19:48:32 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-04-19 19:48:33 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-04-19 19:48:33 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 7908 ms
+2024-04-19 19:48:33 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-19 19:48:34 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-19 19:48:34 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-04-19 19:48:35 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-19 19:48:35 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-04-19 19:48:37 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@22aefae0
+2024-04-19 19:48:37 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-04-19 19:48:37 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-04-19 19:48:40 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-19 19:48:42 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-19 19:48:43 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-19 19:48:45 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+2024-04-19 19:48:45 [main] INFO  c.h.s.SpringBootRestApiPostgresqlApplication - Started SpringBootRestApiPostgresqlApplication in 22.391 seconds (process running for 23.443)
+2024-04-19 19:48:49 [http-nio-8080-exec-3] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-19 19:48:49 [http-nio-8080-exec-3] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-04-19 19:48:49 [http-nio-8080-exec-3] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2024-04-19 19:48:50 [http-nio-8080-exec-3] INFO  c.h.s.controller.BookRestController - User requested to fetch all books
+2024-04-19 19:48:51 [http-nio-8080-exec-3] INFO  c.h.s.controller.BookRestController - Fetched 2 books
+2024-04-19 19:50:02 [main] INFO  c.h.s.SpringBootRestApiPostgresqlApplication - Starting SpringBootRestApiPostgresqlApplication using Java 17.0.10 with PID 26652 (C:\Users\User\Desktop\testing\devopscloud\target\classes started by User in C:\Users\User\Desktop\testing\devopscloud)
+2024-04-19 19:50:02 [main] INFO  c.h.s.SpringBootRestApiPostgresqlApplication - No active profile set, falling back to 1 default profile: "default"
+2024-04-19 19:50:06 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-19 19:50:06 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 151 ms. Found 2 JPA repository interfaces.
+2024-04-19 19:50:08 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-04-19 19:50:08 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-04-19 19:50:08 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-04-19 19:50:09 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-04-19 19:50:09 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 6864 ms
+2024-04-19 19:50:09 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-19 19:50:09 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-19 19:50:10 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-04-19 19:50:10 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-19 19:50:10 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-04-19 19:50:13 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3e4afd10
+2024-04-19 19:50:13 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-04-19 19:50:13 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-04-19 19:50:16 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-19 19:50:18 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-19 19:50:19 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-19 19:50:21 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+2024-04-19 19:50:21 [main] INFO  c.h.s.SpringBootRestApiPostgresqlApplication - Started SpringBootRestApiPostgresqlApplication in 21.09 seconds (process running for 22.201)
+2024-04-19 19:50:35 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-19 19:50:35 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-04-19 19:50:35 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2024-04-19 19:50:36 [http-nio-8080-exec-2] INFO  c.h.s.controller.BookRestController - User requested to fetch book with id: 5
+2024-04-19 19:50:37 [http-nio-8080-exec-2] INFO  c.h.s.controller.BookRestController - Book found: Book{id=5, name='libri 2', description='libri 2', tags=[libri 2, libri 2]}
+2024-04-19 19:51:40 [http-nio-8080-exec-5] INFO  c.h.s.controller.BookRestController - User requested to add book: Book{id=null, name='libri 6', description='libri 6', tags=[libri 6, libri 6]}
+2024-04-19 19:51:41 [http-nio-8080-exec-5] INFO  c.h.s.controller.BookRestController - Book added: Book{id=52, name='libri 6', description='libri 6', tags=[libri 6, libri 6]}
+2024-04-19 19:52:10 [http-nio-8080-exec-6] INFO  c.h.s.controller.BookRestController - User requested to delete book with id: 4
+2024-04-19 19:52:11 [http-nio-8080-exec-6] INFO  c.h.s.controller.BookRestController - Book deleted with id: 4
+2024-04-19 19:52:27 [http-nio-8080-exec-7] INFO  c.h.s.controller.BookRestController - User requested to fetch all books
+2024-04-19 19:52:28 [http-nio-8080-exec-7] INFO  c.h.s.controller.BookRestController - Fetched 2 books
